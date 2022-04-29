@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.AboutMe2_Fragment"
+    android:orientation="horizontal"
+    android:background="#FFFAFA"
+    android:weightSum="10">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </Space>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5">
+            </Space>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal"
+                android:weightSum="10">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6.7"
+                    android:text="어플 제작 후기"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/gowunbatang_bold">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.3"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="9"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_aboutme_mypic">
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <View
+                android:id="@+id/app_introduction_dividerline2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFC8C8"/>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3">
+        </Space>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:background="@drawable/aboutme_color2"
+                android:id="@+id/app_introduction_textview2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:scrollbars="vertical"
+                android:fontFamily="@font/gowunbatang_bold"
+                android:text="  안녕하세요.
+\n 앱 제작이 재밌어진 공대생 코딩하는 호랑이입니다.
+\n\n 이 어플은 토이 프로젝트들 중 첫번째 프로젝트입니다. 저의 자기소개 어플입니다.
+\n\n 만든 이유는, 우선 안드로이드 스튜디오 툴에 조금이라도 익숙해지고 싶었고 일단 뭔가 기능을 하는 이쁜 장난감 하나 만들고 싶은 생각이 들었습니다. 하하
+\n\n 앱 구상은 금방해서, 제작이 쉬울 줄 알았는데 알아야할 것도 많고 시행착오도 많이하면서 생각보다 시간이 오래 걸렸습니다.
+\n 8월 17일에 제작해서 8월 24일에 완성했습니다.
+\n\n 원래는 인하대학교 학생 전용으로, 인하대학교 학과별로 공지사항을 따로 추려서 볼 수 있는 어플을 제작하고 싶은 마음에 어플 개발을 시작했습니다.
+\n\n 학과별로 공지사항 보기와 더불어서 공지사항이 새로 추가될 때마다 해당 학과의 공지사항이 새로 올라왔다고 푸쉬 알림을 할 수 있도록 어플을 제작해보고 싶었습니다.
+\n\n 우선은 제가 상상하는 이 공지사항 어플은 처음부터 시작하기에는 약간 무리인 감이 있어서 학교 졸업 전까지 천천히 제작해볼 생각입니다. 이왕이면 4학년 되기 전에 완성하고 싶은 마음이 있습니다.
+\n\n 그 전까지는 여러 토이 프로젝트들을 하면서 공지사항 어플을 만들 지식들을 하나씩 추가할 겁니다.\n
+">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.7"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></Space>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My SNS"
+                android:fontFamily="@font/gowunbatang_regular"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+            </TextView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></Space>
+
+            <View
+                android:id="@+id/app_introduction_dividerline5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFC8C8"
+                tools:ignore="DuplicateIds" />
+
+            <LinearLayout
+                android:id="@+id/tovisitors_icons_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:orientation="horizontal"
+                android:background="@color/backgroundcolor"
+                android:weightSum="7.5">
+
+                <ImageButton
+                    android:id="@+id/tovisirors_instagram_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/backgroundcolor"
+                    android:src="@drawable/naverblog" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <ImageButton
+                    android:id="@+id/tovisirors_youtube_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/backgroundcolor"
+                    android:src="@drawable/ic_youtube" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <ImageButton
+                    android:id="@+id/tovisirors_blog_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/backgroundcolor"
+                    android:src="@drawable/ic_instagram" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5" />
+
+                <ImageButton
+                    android:id="@+id/tovisirors_email_link"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/backgroundcolor"
+                    android:src="@drawable/ic_gmail" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </Space>
+
+</LinearLayout>

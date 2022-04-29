@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FFFAFAFA"
+    android:weightSum="10"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.AboutMeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:id="@+id/aboutme_linearlayout_lane1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <!--layout_height를 0dp로 맞춰야 TextView의 크기가 바뀌어도 이미 부모 LinearLaayout이
+                    기준이기 때문에 해당 LinearLayout의 높이 크기가 바뀌지 않는다.
+                    추가로 layout_weight를 설정했기 때문에 높이는 고정이다.-->
+                    <ImageView
+                        android:id="@+id/aboutme_imageview_lane1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_aboutme_mypic"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <TextView
+                        android:id="@+id/aboutme_textview_lane1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.5"
+                        android:scrollbars="vertical"
+                        android:text="안녕하세요.
+\n코딩하는 호랑이입니다.
+\n\n이 어플은 토이 프로젝트들 중 첫번째 프로젝트입니다.
+\n\n저의 자기소개 어플입니다.
+\n\n만든 이유는, 우선 안드로이드 스튜디오 툴에 조금이라도 익숙해지고 싶었고 일단 뭔가 기능을 하는 이쁜 장난감 하나 만들고 싶은 생각이 들었습니다. ㅎㅎ
+\n\n앱 구상은 금방해서, 제작이 쉬울 줄 알았는데 알아야할 것도 많고 시행착오도 많이하면서 생각보다 시간이 오래 걸렸습니다.
+\n\n8월 17일에 제작해서 8월 24일에 완성했습니다.
+\n\n원래는 인하대학교 학생 전용으로, 인하대학교 학과별로 공지사항을 따로 추려서 볼 수 있는 어플을 제작하고 싶은 마음에 어플 개발을 시작했습니다.
+\n\n학과별로 공지사항 보기와 더불어서 공지사항이 새로 추가될 때마다 해당 학과의 공지사항이 새로 올라왔다고 푸쉬 알림을 할 수 있도록 어플을 제작해보고 싶었습니다.
+\n\n우선은 제가 상상하는 이 공지사항 어플은 처음부터 시작하기에는 약간 무리인 감이 있어서 학교 졸업 전까지 천천히 제작해볼 생각입니다. 이왕이면 4학년 되기 전에 완성하고 싶은 마음이 있습니다.
+\n\n그 전까지는 여러 토이 프로젝트들을 하면서 공지사항 어플을 만들 지식들을 하나씩 추가할 겁니다.\n
+\n바로 밑에 있는 두번째 탭에 앱 개발 계획들을 써놓았습니다.
+"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/gowunbatang_regular"
+                        android:textSize="20dp"/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:id="@+id/aboutme_linearlayout_lane2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <!--layout_height를 0dp로 맞춰야 TextView의 크기가 바뀌어도 이미 부모 LinearLaayout이
+                    기준이기 때문에 해당 LinearLayout의 높이 크기가 바뀌지 않는다.
+                    추가로 layout_weight를 설정했기 때문에 높이는 고정이다.-->
+                    <ImageView
+                        android:id="@+id/aboutme_imageview_lane2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_aboutme_inha_emblum"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <TextView
+                        android:id="@+id/aboutme_textview_lane2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.5"
+                        android:text="인하대학교\n전기공학과 2학년\n재학 중입니다."
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/gowunbatang_regular"
+                        android:textSize="30dp"/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:id="@+id/aboutme_linearlayout_lane3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <!--layout_height를 0dp로 맞춰야 TextView의 크기가 바뀌어도 이미 부모 LinearLaayout이
+                    기준이기 때문에 해당 LinearLayout의 높이 크기가 바뀌지 않는다.
+                    추가로 layout_weight를 설정했기 때문에 높이는 고정이다.-->
+                    <ImageView
+                        android:id="@+id/aboutme_imageview_lane3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_aboutme_hobby"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <TextView
+                        android:id="@+id/aboutme_textview_lane3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.5"
+                        android:fontFamily="@font/gowunbatang_regular"
+                        android:text="제 사진입니다!"
+                        android:textColor="@color/black"
+                        android:textSize="40dp" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:id="@+id/aboutme_linearlayout_lane4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <!--layout_height를 0dp로 맞춰야 TextView의 크기가 바뀌어도 이미 부모 LinearLaayout이
+                    기준이기 때문에 해당 LinearLayout의 높이 크기가 바뀌지 않는다.
+                    추가로 layout_weight를 설정했기 때문에 높이는 고정이다.-->
+                    <ImageView
+                        android:id="@+id/aboutme_imageview_lane4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:src="@drawable/ic_aboutme_mbti"/>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.5" />
+
+                    <TextView
+                        android:id="@+id/aboutme_textview_lane4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="5.5"
+                        android:text="제 사진입니다!"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/gowunbatang_regular"
+                        android:textSize="40dp"/>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

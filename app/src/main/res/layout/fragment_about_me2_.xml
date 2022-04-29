@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutMe2_Fragment"
+    android:orientation="horizontal"
+    android:background="#FFFAFA"
+    android:weightSum="10">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </Space>
+
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="10">
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5">
+                </Space>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:text="About me"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/gowunbatang_bold">
+                </TextView>
+
+                <View
+                    android:id="@+id/aboutme_dividerline1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#CFC8C8"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+                </Space>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:orientation="horizontal"
+                android:weightSum="10">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4.75"
+                    android:orientation="vertical"
+                    android:weightSum="10"
+                    tools:ignore="Suspicious0dp">
+
+                    <LinearLayout
+                        android:id="@+id/aboutme_imagebotton_layout1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="#FFFAFA"
+                            android:src="@drawable/ic_aboutme_mypic">
+                        </ImageView>
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5">
+                    </Space>
+                    <Button
+                        android:id="@+id/app_introduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/aboutme_button"
+                        android:text="어플 소개"
+                        android:fontFamily="@font/gowunbatang_regular"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        app:backgroundTint="@null">
+                    </Button>
+
+                </LinearLayout>
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5">
+                </Space>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4.75"
+                    android:orientation="vertical"
+                    android:weightSum="10"
+                    tools:ignore="Suspicious0dp">
+
+                    <LinearLayout
+                        android:id="@+id/aboutme_imagebotton_layout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="10"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitXY"
+                            android:background="#FFFAFA"
+                            android:src="@drawable/ic_aboutme_hobby">
+                        </ImageView>
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5">
+                    </Space>
+                    <Button
+                        android:id="@+id/hobby_introduction"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:background="@drawable/aboutme_button"
+                        android:text="나의 취미"
+                        android:fontFamily="@font/gowunbatang_regular"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        app:backgroundTint="@null">
+                    </Button>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.5"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:id="@+id/aboutme_imagebotton_layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="10"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+                    </Space>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="7.5"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:background="#FFFAFA"
+                                android:src="@drawable/ic_aboute_plan">
+                            </ImageView>
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5">
+                        </Space>
+                        <Button
+                            android:id="@+id/plan_introduction"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:background="@drawable/aboutme_button"
+                            android:text="어플 계획"
+                            android:fontFamily="@font/gowunbatang_regular"
+                            android:textSize="15dp"
+                            android:textColor="@color/black"
+                            app:backgroundTint="@null">
+                        </Button>
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2">
+                    </Space>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aboutme_space"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </Space>
+
+</LinearLayout>

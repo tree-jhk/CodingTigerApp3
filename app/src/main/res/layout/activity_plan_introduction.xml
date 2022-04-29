@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".fragments.AboutMe2_Fragment"
+                android:orientation="horizontal"
+                android:background="#FFFAFA"
+                android:weightSum="10">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+                </Space>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:orientation="vertical"
+                    android:weightSum="10">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+                        <Space
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="5">
+                        </Space>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="4"
+                            android:text="Upcoming Apps"
+                            android:textSize="30dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/gowunbatang_bold">
+                        </TextView>
+
+                        <View
+                            android:id="@+id/app_introduction_dividerline2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFC8C8"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+    </Space>
+
+</LinearLayout>
