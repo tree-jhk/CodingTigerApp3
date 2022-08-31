@@ -8,7 +8,7 @@
 > 구글링 + 유튜브
 
 ### Splash screen
-![Splash_screen](https://user-images.githubusercontent.com/97151660/187728363-fd684708-53a2-48a8-8e10-f7fb22ef2734.jpg)
+![Splash_screen](https://user-images.githubusercontent.com/97151660/187729154-aa0314c8-e920-47e7-9611-319225684cc5.jpg)
 
 ### MainActivity
 
