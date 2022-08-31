@@ -1,4 +1,4 @@
-# CodingTigerApp3 간단한 소개
+# CodingTigerApp 간단한 소개
 
 ### 프로젝트 한 줄 소개
 > 본인(권준혁)을 소개하는 어플 - 취미, 계기, 블로그, SNS 소개
